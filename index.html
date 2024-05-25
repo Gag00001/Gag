@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<header>
+    <title>Bitcoin Click</title>
+    <h1 id="counter">Тебя есть 0 Coins</h1>
+    <button onclick="Click()">Нажмите</button>
+</header>
+<script>
+    var Coins = 0;
+
+    function Click() {
+        Coins += 1;
+        document.getElementById("counter").innerHTML = "Тебя есть " + Coins + " Coins!"
+    }
+</script>
