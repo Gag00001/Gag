@@ -3,9 +3,32 @@
 
 <header>
     <title>Bitcoin Click</title>
-    <h1 id="counter">Тебя есть 0 Coins</h1>
-    <button onclick="Click()">Нажмите</button>
+    <h1 class="miavor" id="counter">Тебя есть 0 Coins</h1>
+    <button class="knopka" onclick="Click()">Нажмите</button>
 </header>
+<style>
+    .fon {
+        background-color: black;
+    }
+    
+    .knopka {
+        background: #fff;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-weight: 600px;
+        border-radius: 45px;
+        width: 200px;
+        height: 30px;
+    }
+    
+    .miavor {
+        color: white;
+    }
+</style>
+
+<body class="fon">
+</body>
 <script>
     var Coins = 0;
 
